@@ -15,6 +15,7 @@ int binsearch(int *arr, int l, int r, int toFind) {
 }
 
 int rightBinsearch(int *arr, int l, int r, int toFind) {
+    l--;
     while (r - l > 1) {
         int m = l + (r - l) / 2;
         if (arr[m] <= toFind) {
@@ -27,6 +28,7 @@ int rightBinsearch(int *arr, int l, int r, int toFind) {
 }
 
 int leftBinsearch(int *arr, int l, int r, int toFind) {
+    l--;
     while (r - l > 1) {
         int m = l + (r - l) / 2;
         if (arr[m] < toFind) {
