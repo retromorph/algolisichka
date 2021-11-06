@@ -66,27 +66,27 @@ include CMakeFiles/algorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algorithms.dir/flags.make
 
-CMakeFiles/algorithms.dir/binsearch/newYear.c.o: CMakeFiles/algorithms.dir/flags.make
-CMakeFiles/algorithms.dir/binsearch/newYear.c.o: ../binsearch/newYear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algorithms.dir/binsearch/newYear.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/binsearch/newYear.c.o -c "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/newYear.c"
+CMakeFiles/algorithms.dir/binsearch/binsearch.c.o: CMakeFiles/algorithms.dir/flags.make
+CMakeFiles/algorithms.dir/binsearch/binsearch.c.o: ../binsearch/binsearch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algorithms.dir/binsearch/binsearch.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithms.dir/binsearch/binsearch.c.o -c "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/binsearch.c"
 
-CMakeFiles/algorithms.dir/binsearch/newYear.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/binsearch/newYear.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/newYear.c" > CMakeFiles/algorithms.dir/binsearch/newYear.c.i
+CMakeFiles/algorithms.dir/binsearch/binsearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithms.dir/binsearch/binsearch.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/binsearch.c" > CMakeFiles/algorithms.dir/binsearch/binsearch.c.i
 
-CMakeFiles/algorithms.dir/binsearch/newYear.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/binsearch/newYear.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/newYear.c" -o CMakeFiles/algorithms.dir/binsearch/newYear.c.s
+CMakeFiles/algorithms.dir/binsearch/binsearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithms.dir/binsearch/binsearch.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/binsearch.c" -o CMakeFiles/algorithms.dir/binsearch/binsearch.c.s
 
 # Object files for target algorithms
 algorithms_OBJECTS = \
-"CMakeFiles/algorithms.dir/binsearch/newYear.c.o"
+"CMakeFiles/algorithms.dir/binsearch/binsearch.c.o"
 
 # External object files for target algorithms
 algorithms_EXTERNAL_OBJECTS =
 
-algorithms: CMakeFiles/algorithms.dir/binsearch/newYear.c.o
+algorithms: CMakeFiles/algorithms.dir/binsearch/binsearch.c.o
 algorithms: CMakeFiles/algorithms.dir/build.make
 algorithms: CMakeFiles/algorithms.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable algorithms"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithms.dir/binsearch/newYear.c.o"
+  "CMakeFiles/algorithms.dir/binsearch/binsearch.c.o"
   "algorithms"
   "algorithms.pdb"
 )

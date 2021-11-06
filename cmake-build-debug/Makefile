@@ -129,29 +129,29 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-binsearch/newYear.o: binsearch/newYear.c.o
-.PHONY : binsearch/newYear.o
+binsearch/binsearch.o: binsearch/binsearch.c.o
+.PHONY : binsearch/binsearch.o
 
 # target to build an object file
-binsearch/newYear.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/newYear.c.o
-.PHONY : binsearch/newYear.c.o
+binsearch/binsearch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.o
+.PHONY : binsearch/binsearch.c.o
 
-binsearch/newYear.i: binsearch/newYear.c.i
-.PHONY : binsearch/newYear.i
+binsearch/binsearch.i: binsearch/binsearch.c.i
+.PHONY : binsearch/binsearch.i
 
 # target to preprocess a source file
-binsearch/newYear.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/newYear.c.i
-.PHONY : binsearch/newYear.c.i
+binsearch/binsearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.i
+.PHONY : binsearch/binsearch.c.i
 
-binsearch/newYear.s: binsearch/newYear.c.s
-.PHONY : binsearch/newYear.s
+binsearch/binsearch.s: binsearch/binsearch.c.s
+.PHONY : binsearch/binsearch.s
 
 # target to generate assembly for a file
-binsearch/newYear.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/newYear.c.s
-.PHONY : binsearch/newYear.c.s
+binsearch/binsearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.s
+.PHONY : binsearch/binsearch.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... binsearch/newYear.o"
-	@echo "... binsearch/newYear.i"
-	@echo "... binsearch/newYear.s"
+	@echo "... binsearch/binsearch.o"
+	@echo "... binsearch/binsearch.i"
+	@echo "... binsearch/binsearch.s"
 .PHONY : help
 
 
