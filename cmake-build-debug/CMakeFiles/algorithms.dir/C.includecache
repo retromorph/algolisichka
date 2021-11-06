@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/newYear.c
+stdio.h
+/Users/retromorph/Library/Mobile Documents/com~apple~CloudDocs/Education/programming/algorithms/binsearch/stdio.h
+
