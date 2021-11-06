@@ -18,7 +18,7 @@ int rightBinsearch(int *arr, int l, int r, int toFind) {
     while (r - l > 1) {
         int m = l + (r - l) / 2;
         if (arr[m] <= toFind) {
-            l = m + 1;
+            l = m;
         } else {
             r = m;
         }
@@ -30,7 +30,7 @@ int leftBinsearch(int *arr, int l, int r, int toFind) {
     while (r - l > 1) {
         int m = l + (r - l) / 2;
         if (arr[m] < toFind) {
-            l = m + 1;
+            l = m;
         } else {
             r = m;
         }
@@ -54,7 +54,7 @@ size_t recbinsearch(int *arr, int l, int r, int toFind) {
 }
 
 int main() {
-    int b[] = {1, 3, 3, 3, 4, 4, 5, 6};
+    int b[] = {1, 2, 2, 2, 3, 3, 3, 3};
     printf("%i\n", binsearch(b, 0, 8, 3));
     printf("%i\n", rightBinsearch(b, 0, 8, 3));
     printf("%i\n", leftBinsearch(b, 0, 8, 3));
