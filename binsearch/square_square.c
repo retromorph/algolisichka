@@ -8,15 +8,16 @@ int main() {
     scanf("%lf", &C);
 
     double l = 0, r = C;
-    y = sqrt(x) + x*x;
+    x = l + (r - l) / 2;
+    y = sqrt(x) + x * x;
     while (fabs(y - C) > EPS) {
         x = l + (r - l) / 2;
-        y = sqrt(x) + x*x;
+        y = sqrt(x) + x * x;
         if (y < C) {
             l = x;
         } else {
             r = x;
         }
     }
-    printf("%lf\n", x);
+    printf("%.9lf\n", x);
 }

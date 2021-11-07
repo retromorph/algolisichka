@@ -3,4 +3,4 @@ project(algorithms C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(algorithms binsearch/binsearch.c)
+add_executable(algorithms binsearch/cutTheRope.c)

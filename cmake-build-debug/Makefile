@@ -129,29 +129,29 @@ algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
 .PHONY : algorithms/fast
 
-binsearch/binsearch.o: binsearch/binsearch.c.o
-.PHONY : binsearch/binsearch.o
+binsearch/cutTheRope.o: binsearch/cutTheRope.c.o
+.PHONY : binsearch/cutTheRope.o
 
 # target to build an object file
-binsearch/binsearch.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.o
-.PHONY : binsearch/binsearch.c.o
+binsearch/cutTheRope.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/cutTheRope.c.o
+.PHONY : binsearch/cutTheRope.c.o
 
-binsearch/binsearch.i: binsearch/binsearch.c.i
-.PHONY : binsearch/binsearch.i
+binsearch/cutTheRope.i: binsearch/cutTheRope.c.i
+.PHONY : binsearch/cutTheRope.i
 
 # target to preprocess a source file
-binsearch/binsearch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.i
-.PHONY : binsearch/binsearch.c.i
+binsearch/cutTheRope.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/cutTheRope.c.i
+.PHONY : binsearch/cutTheRope.c.i
 
-binsearch/binsearch.s: binsearch/binsearch.c.s
-.PHONY : binsearch/binsearch.s
+binsearch/cutTheRope.s: binsearch/cutTheRope.c.s
+.PHONY : binsearch/cutTheRope.s
 
 # target to generate assembly for a file
-binsearch/binsearch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/binsearch.c.s
-.PHONY : binsearch/binsearch.c.s
+binsearch/cutTheRope.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/binsearch/cutTheRope.c.s
+.PHONY : binsearch/cutTheRope.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithms"
-	@echo "... binsearch/binsearch.o"
-	@echo "... binsearch/binsearch.i"
-	@echo "... binsearch/binsearch.s"
+	@echo "... binsearch/cutTheRope.o"
+	@echo "... binsearch/cutTheRope.i"
+	@echo "... binsearch/cutTheRope.s"
 .PHONY : help
 
 
